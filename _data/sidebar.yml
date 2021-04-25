@@ -1,0 +1,49 @@
+- title: Computer Science
+  url: /computer-science
+  sub:
+    - title: Operating systems
+      url: #
+    - title: Compilers
+      url: #
+- title: Programming
+  url: /programming
+  sub:
+    - title: C
+      url: #
+    - title: Lisp
+      url: #
+    - title: Perl
+      url: #
+    - title: Assembly
+      url: #
+- title: Hacking
+  url: /hacking
+  sub:
+    - title: Kernel
+      url: #
+    - title: Arduino
+      url: #
+    - title: Raspberry
+      url: #
+- title: About Me
+  url: /about-me
+- title: Philosophy
+  url: /philosophy
+  sub:
+    - title: Free Software
+      url: #
+    - title: Anarchism
+      url: #
+- title: Good Reads
+  url: #
+  sub:
+    - title: Books about programming
+      url: #
+    - title: Books about operating systems
+      url: #
+    - title: Books about compilers
+      url: #
+    - title: Books about fiction
+      url: #
+    - title: Books about love
+      url: #

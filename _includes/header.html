@@ -1,0 +1,62 @@
+<div id="header">
+  <div class="superHeader">
+    <div class="left">
+
+      {% for link in site.data.header_content %}
+      <a href="{{ link.url }}">{{ link.title }}</a>
+      {% endfor %}
+
+    </div>
+  </div>
+
+  <div class="midHeader">
+    <h1 class="headerTitle">
+      <a href="/">
+	{{ site.title }}
+	<span id="headerSubTitle">
+	  {{ page.title }}
+	</span>
+      </a>
+    </h1>
+  </div>
+
+  <div class="subHeader"></div>
+</div>
+
+<div id="side-bar">
+  <div>
+    <ul>
+      {% for thing in site.data.sidebar %}
+      <li>
+	<a href="{{ thing.url }}">
+	  {% if thing.title == page.title %}
+	  &raquo;
+	  {% else %}
+	  &rsaquo;
+	  {% endif %}
+	  {{ thing.title }}
+	</a>
+      </li>
+      {% if thing.sub != nil %}
+      <li>
+	<ul>
+	  {% for subthing in thing.sub %}
+	  <li>
+	    <a href="{{ subthing.url }}">
+	      {% if subthing.title == page.title %}
+	      &raquo;
+	      {% else %}
+	      &rsaquo;
+	      {% endif %}
+
+	      {{ subthing.title }}
+	    </a>
+	  </li>
+	  {% endfor %}
+	</ul>
+      </li>
+      {% endif %}
+      {% endfor %}
+    </ul>
+  </div>
+</div>
