@@ -37,7 +37,7 @@
 	  {{ thing.title }}
 	</a>
       </li>
-      {% if thing.sub != nil %}
+      {% if thing.sub != nil and page.title == thing.title or page.child == thing.title %}
       <li>
 	<ul>
 	  {% for subthing in thing.sub %}
