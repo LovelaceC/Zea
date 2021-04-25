@@ -35,6 +35,7 @@
 	  &rsaquo;
 	  {% endif %}
 	  {{ thing.title }}
+	  {% if thing.sub != nil %}/{% endif %}
 	</a>
       </li>
       {% if thing.sub != nil and page.title == thing.title or page.child == thing.title %}

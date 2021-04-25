@@ -1,0 +1,21 @@
+---
+title: Introduction
+layout: page
+child: Guides
+---
+
+**Note**: I assume you are already familiar with what memory leak is.
+
+This series of tutorials will guide through the creation of a MLD (Memory Leak
+Detection) tool, and a tool like this will be able to find if our application is
+leaking memory or not (You can see what a memory leak is
+[here](https://en.wikipedia.org/wiki/Memory_leak)).
+
+By the end, you will be able to implement this "project" as a library and let it
+manage the memory for you.
+
+How is it going to work? It is going to keep track of all the heap objects that
+our program has created and it will also keep track of how they hold references
+to each other and it will show you the leaked objects (if any).
+
+[Index](/guides/garbage_collector)

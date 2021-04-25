@@ -25,6 +25,11 @@
       url: #
     - title: Raspberry
       url: #
+- title: Guides
+  url: /guides
+  sub:
+    - title: Garbage Collector
+      url: /guides/garbage_collector
 - title: About Me
   url: /about-me
 - title: Philosophy
@@ -35,15 +40,19 @@
     - title: Anarchism
       url: #
 - title: Good Reads
-  url: #
+  url: /good-reads
   sub:
-    - title: Books about programming
+    - title: Programming
       url: #
-    - title: Books about operating systems
+    - title: Operating systems
       url: #
-    - title: Books about compilers
+    - title: Compilers
       url: #
-    - title: Books about fiction
+    - title: Cyber-security
       url: #
-    - title: Books about love
+    - title: Fiction
       url: #
+    - title: Love
+      url: #
+- title: Donate
+  url: /donate

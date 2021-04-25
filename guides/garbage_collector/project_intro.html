@@ -1,0 +1,53 @@
+---
+title: Project Block Diagram
+layout: page
+child: Garbage Collector
+---
+
+Let's have some background about the problem we are trying to solve.
+
+Let's suppose you have a C application running, and you have called some
+malloc/kalloc/free functions to manage memory. When your application calls
+such functions for either allocate or deallocate memory, that request goes
+to the operating system and the operating system serves that request and as
+a result the memory is returned to the application so it can use it.
+
+Those are the basic three steps which are involved when a C application
+requests memory from the operating system.
+
+When the operating system returns a response, for example, when `malloc` is
+called it will return the return the address of memory that is allocated for our
+C program.
+
+Now let's start to understand what our program will be.
+
+Now the memory allocation requests/responses will be handled by a third party,
+our program so, when a C application requests for memory allocation/deallocation
+that request will now be made to the MLD library rather than the Operating
+System, when the MLD library that we are going to develop receives a request
+will forward that request to the operating system, the OS will response to the
+MLD library as it normally would. Now the MLD library, depending on the response
+received from the operating system, the MLD library will update its internal
+data structures to keep track of memory objects that are used by the C program
+and finally it will return the memory to the C program so it can use it.
+
+Now the memory allocation/deallocation requests are handled in five steps rather
+than three as described before:
+
+1. Request memory to the MLD Library.
+2. The MLD Library forwards the memory request to the OS.
+3. The memory request is served and the OS returns an answer to the MLD library.
+4. The MLD Library updates its internal data structures to keep track of the
+memory objects used by the application.
+5. The MLD Library returns the memory to the C program so it can be used.
+
+The MLD library acts as a middleman between the C program and the operating
+system, for example, let's suppose you request 10 bytes of memory, this request
+of memory allocation of 10 bytes will go from the C program to the MLD library
+first and then, it will forward that request to the operating system, the
+operating system will return a response to the MLD library, the MLD library
+once receives the response from the operating system will update its internal
+data structures which it has created in order to keep track of all the memory
+objects that are used by the application and finally, when the MLD library is
+done building its internal data structure, the MLD library will return the 10
+bytes chunk of memory back to the C program so it can be used by it.
