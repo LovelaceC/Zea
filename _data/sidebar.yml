@@ -30,8 +30,6 @@
 - title: Guides
   url: /guides
   sub:
-    - title: Garbage Collector
-      url: /guides/garbage_collector
 - title: About Me
   url: /about-me
 - title: Philosophy
