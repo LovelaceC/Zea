@@ -2,7 +2,7 @@
   url: /computer-science
   sub:
     - title: Operating systems
-      url: #
+      url: /computer-science/os
     - title: Compilers
       url: #
 - title: Programming
