@@ -1,7 +1,8 @@
 title: Zea
 description: >-
-  A place where I store my notes about computer science, programming, hacking
-  and amongst other things.
+  Personal website, including computer science notes, programming, hacking,
+  philosophy, C, Lisp, Assembly and several other things that could also help
+  you learn new things.
 tags:
   - programming
   - cyber security
@@ -9,5 +10,16 @@ tags:
   - free
   - courses
   - learning
+  - deep learning
+  - C
+  - assembly
+  - lisp
+  - perl
+  - personal site
+  - free software
 
 highlighter: rouge
+
+url: "https://zeabanger.gq"
+plugins:
+  - jekyll-sitemap
