@@ -5,6 +5,8 @@
       url: /computer-science/os
     - title: Compilers
       url: #
+    - title: Programming
+      url: #
 - title: Programming
   url: /programming
   sub:
@@ -15,6 +17,8 @@
     - title: Perl
       url: #
     - title: Assembly
+      url: #
+    - title: GDB
       url: #
 - title: Hacking
   url: /hacking
