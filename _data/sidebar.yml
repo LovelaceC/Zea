@@ -34,6 +34,8 @@
 - title: Guides
   url: /guides
   sub:
+    - title: Deep learning from scratch in C
+      url: /guides/deep-learningc
 - title: About Me
   url: /about-me
 - title: Philosophy
