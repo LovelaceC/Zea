@@ -4,9 +4,9 @@
     - title: Operating systems
       url: /computer-science/os
     - title: Compilers
-      url: #
-    - title: Programming
-      url: #
+      url: /computer-science/compilers
+    - title: Programming Science
+      url: /computer-science/programming
 - title: Programming
   url: /programming
   sub:
@@ -25,9 +25,7 @@
   sub:
     - title: Kernel
       url: #
-    - title: Arduino
-      url: #
-    - title: Raspberry
+    - title: Cybersecurity
       url: #
 - title: Blog
   url: /blog
