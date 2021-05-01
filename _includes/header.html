@@ -25,7 +25,10 @@
 
 <div id="side-bar">
   <div>
-    <ul>
+
+    {% include sidebar-entry.html menu=site.data.sidebar%}
+
+    <!--<ul>
       {% for thing in site.data.sidebar %}
       <li>
 	<a href="{{ thing.url }}">
@@ -58,6 +61,6 @@
       </li>
       {% endif %}
       {% endfor %}
-    </ul>
+    </ul>-->
   </div>
 </div>
