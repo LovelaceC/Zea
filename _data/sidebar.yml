@@ -28,10 +28,10 @@
     - title: Cybersecurity
       url: #
 - title: Languages
-  url: #
+  url: /languages
   sub:
     - title: Italian
-      url: #
+      url: /languages/italian
       sub:
         - title: A1
           url: #

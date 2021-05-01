@@ -11,7 +11,7 @@
       {% if thing.sub != nil%}/{% endif %}
     </a>
   </li>
-  {% if thing.sub != nil and page.title == thing.title or page.child == thing.title %}
+  {% if thing.sub != nil and page.title == thing.title or page.child == thing.title or page.fold == thing.title %}
   {% include sidebar-entry.html menu=thing.sub %}
   {% endif %}
   {% endfor %}
