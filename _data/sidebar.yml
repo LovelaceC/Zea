@@ -13,20 +13,13 @@
     - title: C
       url: /programming/c
     - title: Lisp
-      url: #
+      url: /programming/lisp
     - title: Perl
-      url: #
+      url: /programming/perl
     - title: Assembly
-      url: #
-    - title: GDB
-      url: #
+      url: /programming/assembly
 - title: Hacking
   url: /hacking
-  sub:
-    - title: Kernel
-      url: #
-    - title: Cybersecurity
-      url: #
 - title: Languages
   url: /languages
   sub:
@@ -56,21 +49,6 @@
     - title: Free Software
       url: #
     - title: Anarchism
-      url: #
-- title: Good Reads
-  url: /good-reads
-  sub:
-    - title: Programming
-      url: #
-    - title: Operating systems
-      url: #
-    - title: Compilers
-      url: #
-    - title: Cyber-security
-      url: #
-    - title: Fiction
-      url: #
-    - title: Love
       url: #
 - title: Donate
   url: /donate
