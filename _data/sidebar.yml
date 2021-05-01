@@ -27,6 +27,20 @@
       url: #
     - title: Cybersecurity
       url: #
+- title: Languages
+  url: #
+  sub:
+    - title: Italian
+      url: #
+      sub:
+        - title: A1
+          url: #
+        - title: A2
+          url: #
+        - title: B1
+          url: #
+        - title: B2
+          url: #
 - title: Blog
   url: /blog
 - title: Guides
