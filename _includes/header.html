@@ -28,39 +28,5 @@
 
     {% include sidebar-entry.html menu=site.data.sidebar%}
 
-    <!--<ul>
-      {% for thing in site.data.sidebar %}
-      <li>
-	<a href="{{ thing.url }}">
-	  {% if thing.title == page.title %}
-	  &raquo;
-	  {% else %}
-	  &rsaquo;
-	  {% endif %}
-	  {{ thing.title }}
-	  {% if thing.sub != nil %}/{% endif %}
-	</a>
-      </li>
-      {% if thing.sub != nil and page.title == thing.title or page.child == thing.title %}
-      <li>
-	<ul>
-	  {% for subthing in thing.sub %}
-	  <li>
-	    <a href="{{ subthing.url }}">
-	      {% if subthing.title == page.title %}
-	      &raquo;
-	      {% else %}
-	      &rsaquo;
-	      {% endif %}
-
-	      {{ subthing.title }}
-	    </a>
-	  </li>
-	  {% endfor %}
-	</ul>
-      </li>
-      {% endif %}
-      {% endfor %}
-    </ul>-->
   </div>
 </div>
