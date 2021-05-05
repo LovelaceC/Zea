@@ -1,0 +1,12 @@
+{{ partial "head.html" . }}
+{{ partial "header.html" . }}
+
+<div id="main-copy">
+  <h1>{{.Title}}</h1>
+
+  <i>Total read: {{.ReadingTime}} minute(s)</i><br>
+
+  {{.Content | markdownify}}
+</div>
+
+{{ partial "footer.html" . }}

@@ -1,0 +1,26 @@
+<ul>
+  {{ range .context }}
+  <li>
+    <a href="{{.url}}">
+      {{if eq .title $.page.Title }}
+      &raquo;
+      {{else}}
+      &rsaquo;
+      {{end}}
+
+      {{.title}}
+
+      {{if ne .sub nil}}
+      /
+      {{end}}
+    </a>
+  </li>
+
+  {{if or (and (ne .sub nil) (eq $.page.Title .title))
+          (eq $.page.Params.fold .title)
+          (eq $.page.Params.child .title)}}
+  {{ partial "sidebar-entry.html" (dict "context" .sub "page" $.page)}}
+  {{end}}
+
+  {{end}}
+</ul>

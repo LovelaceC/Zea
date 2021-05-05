@@ -1,0 +1,33 @@
+<div id="header">
+  <div class="superHeader">
+    <div class="left">
+
+      {{ range .Site.Data.header_content }}
+      <a href="{{ .url }}">{{ .title }}</a>
+      {{ end }}
+
+    </div>
+  </div>
+
+  <div class="midHeader">
+    <h1 class="headerTitle">
+      <a href="/">
+	{{.Site.Title}}
+
+	<span id="headerSubTitle">
+	  {{.Title}}
+	</span>
+      </a>
+    </h1>
+  </div>
+
+  <div class="subHeader"></div>
+</div>
+
+<div id="side-bar">
+  <div>
+
+    {{ partial "sidebar-entry.html" (dict "context" .Site.Data.sidebar "page" $) }}
+
+  </div>
+</div>

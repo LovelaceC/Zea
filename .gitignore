@@ -1,9 +1,3 @@
-_site
-.sass-cache
-.jekyll-cache
-.jekyll-metadata
-vendor
-
 # Local Netlify folder
 .netlify
 
@@ -11,5 +5,10 @@ vendor
 *~
 \#*\#
 .\#*
+
+# Hugo
+/public/
+/resources/_gen/
+hugo_stats.json
 
 google5165c7d2932bdba1.html
