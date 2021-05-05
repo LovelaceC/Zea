@@ -1,5 +1,5 @@
 ---
 title: Blog
 type: default
-layout: page
+layout: blog
 ---
