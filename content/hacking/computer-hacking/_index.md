@@ -22,3 +22,7 @@ phones, etcetera)
 [Basic Information Gathering](/hacking/computer-hacking/contents/serverside/info-gathering)<br>
 [Hacking a Remote Server Using a Basic Metasploit Exploit](/hacking/computer-hacking/contents/serverside/basic-hack)<br>
 [Exploiting a Code Execution Vulnerability into a Remote Server](/hacking/computer-hacking/contents/serverside/code-execution)<br>
+
+### Client-Side Attacks
+
+[Introduction to Client-Side Attacks](/hacking/computer-hacking/contents/clientside/introduction)<br>
