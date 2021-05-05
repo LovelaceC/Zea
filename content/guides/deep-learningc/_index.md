@@ -14,6 +14,9 @@ learning, uses of deep learning and things like that.
 
 ## Contents
 
+### Introduction
+
 [The single input single output neural network](/guides/deep-learningc/siso)<br>
 [The single input multiple output neural network](/guides/deep-learningc/simo)<br>
 [The multiple input single output neural network](/guides/deep-learningc/miso)<br>
+[The multiple input multiple output neural network](/guides/deep-learningc/mimo)<br>
