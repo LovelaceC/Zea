@@ -20,6 +20,24 @@
       url: /programming/assembly
 - title: Hacking
   url: /hacking
+  sub:
+    - title: Introduction
+      url: /hacking/introduction
+    - title: Network Hacking
+      url: /hacking/network-hacking
+    - title: Computer Hacking
+      url: /hacking/computer-hacking
+    - title: Website Hacking
+      url: /hacking/website-hacking
+    - title: Anonymity and Privacy
+      url: /hacking/anonymity
+    - title: Social Engineering
+      url: /hacking/social-engineering
+      sub:
+        - title: Human Hacking
+          url: /hacking/social-engineering/humans
+        - title: Computer Hacking
+          url: /hacking/social-engineering/computers
 - title: Languages
   url: /languages
   sub:
