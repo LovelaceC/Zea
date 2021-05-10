@@ -16,9 +16,7 @@
     </a>
   </li>
 
-  {{if or (and (ne .sub nil) (eq $.page.Title .title))
-          (eq $.page.Params.fold .title)
-          (eq $.page.Params.child .title)}}
+  {{if or (and (ne .sub nil) (eq $.page.Title .title)) (eq $.page.Params.fold .title) (eq $.page.Params.child .title)}}
   {{ partial "sidebar-entry.html" (dict "context" .sub "page" $.page)}}
   {{end}}
 

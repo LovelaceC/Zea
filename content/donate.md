@@ -13,15 +13,10 @@ or money. You can do the first option in
 PayPal (I discourage you from using this method as it requires non-free
 javascript) or through liberapay:
 
-- Paypal:
-
-<form action="https://www.paypal.com/donate" method="post" target="_top">
-<input type="hidden" name="business" value="nothersgta@gmail.com" />
-<input type="hidden" name="currency_code" value="USD" />
-<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
-<img alt="" border="0" src="https://www.paypal.com/en_CO/i/scr/pixel.gif" width="1" height="1" />
-</form>
-
 - Liberapay:
 
 <script src="https://liberapay.com/zealovesc/widgets/receiving.js"></script>
+
+- Cryptocurrencies:
+  - Bitcoin: 3DwjBsBFPqvXZzxZcRVHFHi37v9XP45yiz
+  - Ethereum: 0xf8E14f5d216c711A7abf1C35077625ad4A71AE81
