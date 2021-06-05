@@ -9,4 +9,5 @@ child: Programming
 
 ## Getting Started
 
-[What is C](/programming/c/getting-started/definition)
+[What is C](/programming/c/getting-started/definition)<br>
+[Getting Started with C](/programming/c/getting-started/getting-started)
