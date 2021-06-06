@@ -89,7 +89,7 @@ natives to practise it.
 
 ## My computer
 
-I use an Asus X441N, which runs a free operating system (Trisquel).
+I use an Asus X441N, which runs a free operating system (Parabola).
 
 ## GNU/Linux distro
 
@@ -99,7 +99,8 @@ I’ve been using Debian, Arch and Gentoo based distributions for a long time,
 I got used to them. I’ve also tried Void and Fedora, but didn’t like them
 that much.
 
-I usually switch between Debian, Arch and Gentoo.
+I usually switch between Debian, Arch, Gentoo and derivatives (like Parabola,
+Hyperbola, Trisquel, etcetera).
 
 ## What I do on my computer
 
