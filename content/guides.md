@@ -15,3 +15,5 @@ the programming section so you can learn it beforehand.
 ## Contents
 
 [Deep Learning From Scratch In C](/guides/deep-learningc)
+
+[Emacs](/guides/emacs)
