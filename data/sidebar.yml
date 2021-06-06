@@ -18,6 +18,8 @@
       url: /programming/perl
     - title: Assembly
       url: /programming/assembly
+    - title: GDB
+      url: /programming/gdb
 - title: Hacking
   url: /hacking
   sub:

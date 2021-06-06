@@ -11,7 +11,7 @@ are:
 - C
 - Lisp
 - Perl
-- Assembly (MASM/NASM)
+- Assembly (NASM)
 - GDB (as it is sort of related with programming)
 
 In the future, I might add new languages.
