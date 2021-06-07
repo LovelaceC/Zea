@@ -70,12 +70,14 @@ The file **multiple_input_multiple_output.c** looks like this:
 #define SAD 0.9
 #define INPUT_LEN 3
 #define OUTPUT_LEN 3
+
 double predicted_results[3];
 double weights[OUTPUT_LEN][INPUT_LEN] = {  { -2, 9.5, 2.01 },
 	                                       { -0.8, 7.2, 6.3 },
 										   { -0.5, 0.45, 0.9 }
 									    };
 double inputs[INPUT_LEN] = { 30, 87, 110 };
+
 void
 multiple_input_multiple_output (
 	                              double *input_vector,
@@ -93,6 +95,7 @@ multiple_input_multiple_output (
 		   }
 	 }
 }
+
 int
 main (void)
 {
