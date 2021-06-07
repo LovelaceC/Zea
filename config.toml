@@ -12,8 +12,7 @@ lineAnchors = ""
 lineNoStart = 1
 lineNos = false
 lineNumbersInTable = true
-noClasses = true
-style = "emacs"
+noClasses = false
 tabWidth = 4
 
 [markup.goldmark.renderer]
