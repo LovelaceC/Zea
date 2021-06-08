@@ -15,9 +15,5 @@ section.
 
 ### Introduction
 
-[Introduction to computer systems](/computer-science/os/introduction-cs)<br>
-[How hardware devices work together](/computer-science/os/hardware-together)<br>
-[Resource allocation](/computer-science/os/res-alloc)<br>
-[How Input and Output devices work together](/computer-science/os/io)<br>
-
-### Operating Systems Concepts
+[Introduction](/computer-science/os/intro/intro)<br>
+[What is an Operating System?](/computer-science/os/intro/what-is)<br>
