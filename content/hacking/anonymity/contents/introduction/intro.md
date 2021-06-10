@@ -2,7 +2,7 @@
 title: Introduction to Anonymity
 type: default
 layout: page
-child: Hacking
+child: Cracking
 fold: Anonymity and Privacy
 ---
 

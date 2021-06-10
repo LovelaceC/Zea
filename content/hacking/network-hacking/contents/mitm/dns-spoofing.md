@@ -2,8 +2,8 @@
 title: DNS Spoofing
 type: default
 layout: page
-child: Hacking
-fold: Network Hacking
+child: Cracking
+fold: Network Cracking
 ---
 
 In this lesson, we are going to learn what DNS Spoofing is and how to perform

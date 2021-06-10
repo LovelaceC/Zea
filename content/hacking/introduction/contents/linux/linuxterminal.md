@@ -2,7 +2,7 @@
 title: Introduction to the Linux Terminal
 type: default
 layout: page
-child: Hacking
+child: Cracking
 fold: Introduction
 ---
 

@@ -2,7 +2,7 @@
 title: Computer Hacking
 type: default
 layout: page
-child: Hacking
+child: Cracking
 fold: Social Engineering
 ---
 

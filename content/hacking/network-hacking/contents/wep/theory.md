@@ -2,8 +2,8 @@
 title: Theory Behind WEP Cracking
 type: default
 layout: page
-child: Hacking
-fold: Network Hacking
+child: Cracking
+fold: Network Cracking
 ---
 
 The first encryption we'll learn to crack is called WEP. WEP stands for "_Wired

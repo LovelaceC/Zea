@@ -2,8 +2,8 @@
 title: Creating a Wordlist
 type: default
 layout: page
-child: Hacking
-fold: Network Hacking
+child: Cracking
+fold: Network Cracking
 ---
 
 From the previous lessons, we learn that when it comes to WPA and WPA2 the only

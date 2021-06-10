@@ -8,7 +8,7 @@ Hello everybody, I am Bassara and this is the Zea Banger project (yes, I know
 the name sucks).
 
 This is a project I decided to start to help people willing to learn about
-computer science or to take their programming and hacking abilities to the next
+computer science or to take their programming and cracking abilities to the next
 level.
 
 Here you can find a lot of different things for free, as in freedom and as in

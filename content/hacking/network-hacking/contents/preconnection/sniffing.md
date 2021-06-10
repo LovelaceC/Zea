@@ -2,8 +2,8 @@
 title: Packet Sniffing
 type: default
 layout: page
-child: Hacking
-fold: Network Hacking
+child: Cracking
+fold: Network Cracking
 ---
 
 Once we have activated the monitor mode in our wireless interface, we can

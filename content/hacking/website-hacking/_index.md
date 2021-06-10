@@ -1,8 +1,8 @@
 ---
-title: Website Hacking
+title: Website Cracking
 type: default
 layout: page
-child: Hacking
+child: Cracking
 ---
 
 In this section you will learn different attacks you can perform to gain

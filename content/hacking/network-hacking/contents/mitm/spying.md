@@ -2,8 +2,8 @@
 title: Spying on Network Devices
 type: default
 layout: page
-child: Hacking
-fold: Network Hacking
+child: Cracking
+fold: Network Cracking
 ---
 
 In the previous lesson, we learned how to use BetterCAP to run an ARP spoofing

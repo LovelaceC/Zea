@@ -1,9 +1,9 @@
 ---
-title: Hacking WPA and WPA2 Without a Wordlist
+title: Cracking WPA and WPA2 Without a Wordlist
 type: default
 layout: page
-child: Hacking
-fold: Network Hacking
+child: Cracking
+fold: Network Cracking
 ---
 
 Now that we know what WPS is and how it can be used to recover the password for

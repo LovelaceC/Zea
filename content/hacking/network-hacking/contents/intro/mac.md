@@ -2,8 +2,8 @@
 title: MAC Address
 type: default
 layout: page
-child: Hacking
-fold: Network Hacking
+child: Cracking
+fold: Network Cracking
 ---
 
 MAC address stands for Media Access Control, it is a permanent, physical and

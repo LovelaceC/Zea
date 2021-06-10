@@ -2,11 +2,11 @@
 title: Introduction to Server-Side Attacks
 type: default
 layout: page
-child: Hacking
-fold: Computer Hacking
+child: Cracking
+fold: Computer Cracking
 ---
 
-The first thing we are going to see in the computer hacking section are the
+The first thing we are going to see in the computer cracking section are the
 server-side attacks. These are the attacks that don't require user interaction.
 You can use these attacks with servers and you can also use them against normal
 computers that people use every day.

@@ -2,8 +2,8 @@
 title: Introduction to Post-Connection Attacks
 type: default
 layout: page
-child: Hacking
-fold: Network Hacking
+child: Cracking
+fold: Network Cracking
 ---
 
 In this section, we are going to learn about post-connection attacks. These are

@@ -2,8 +2,8 @@
 title: Introduction to Client-Side Attacks
 type: default
 layout: page
-child: Hacking
-fold: Computer Hacking
+child: Cracking
+fold: Computer Cracking
 ---
 
 In this section, we are going to start talking about Client-Side Attacks. So,

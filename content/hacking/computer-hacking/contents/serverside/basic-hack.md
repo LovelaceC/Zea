@@ -1,12 +1,12 @@
 ---
-title: Hacking a Remote Server Using a Basic Metasploit Exploit
+title: Cracking a Remote Server Using a Basic Metasploit Exploit
 type: default
 layout: page
-child: Hacking
-fold: Computer Hacking
+child: Cracking
+fold: Computer Cracking
 ---
 
-# Hacking a Remote Server Using a Basic Metasploit Exploit
+# Cracking a Remote Server Using a Basic Metasploit Exploit
 
 So far we have seen how to gain access through a misconfigured service to a
 remote server. Today, we are going to have an example on a very simple thing,

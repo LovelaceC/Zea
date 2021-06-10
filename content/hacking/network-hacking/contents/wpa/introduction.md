@@ -2,8 +2,8 @@
 title: Introduction to WPA/WPA2 Cracking
 type: default
 layout: page
-child: Hacking
-fold: Network Hacking
+child: Cracking
+fold: Network Cracking
 ---
 
 In the previous lessons, we learned how to crack the WEP encryption in minutes

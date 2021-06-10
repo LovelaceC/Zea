@@ -1,22 +1,22 @@
 ---
-title: Introduction to Hacking
+title: Introduction to Cracking
 type: default
 layout: page
-child: Hacking
+child: Cracking
 ---
 
-Welcome to the Zea's Hacking course.
+Welcome to the Zea's Cracking course.
 
-In this course I will teach you hacking from scratch, which means, you won't
+In this course I will teach you cracking from scratch, which means, you won't
 need any kind of prior knowledge in order to complete it.
 
-We'll start talking about a Hacking Lab and how you can install the necessary
+We'll start talking about a Cracking Lab and how you can install the necessary
 software so you can test your attacks without damaging any other device.
 
-Once you have your hacking lab we'll begin with the course, which is divided in
+Once you have your cracking lab we'll begin with the course, which is divided in
 the following sections:
 
-* **Network hacking**: In this section you'll learn how do networks work, how
+* **Network cracking**: In this section you'll learn how do networks work, how
   the devices communicate with each other and how to exploit this kind of
 communication to gain control over every single connection on your network,
 you'll also learn how to crack passwords, regardless if they use WEP, WPA or
@@ -37,7 +37,7 @@ filesystem, execute commands remotely, to capture the keys your target presses
 on the keyboard, turn on the webcam and even use the compromised device to hack
 more devices.
 
-* **Website Hacking**: In this section you'll learn how do websites work, how to
+* **Website Cracking**: In this section you'll learn how do websites work, how to
   gain detailed and comprehensive information about them and how to discover and
 exploit vulnerabilities that will let you gain complete control over your target
 website.

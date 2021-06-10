@@ -2,8 +2,8 @@
 title: Capturing the Handshake
 type: default
 layout: page
-child: Hacking
-fold: Network Hacking
+child: Cracking
+fold: Network Cracking
 ---
 
 If none of the methods previously shown worked, now you'd need to crack the

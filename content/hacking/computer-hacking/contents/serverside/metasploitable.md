@@ -2,8 +2,8 @@
 title: Installing Metasploitable
 type: default
 layout: page
-child: Hacking
-fold: Computer Hacking
+child: Cracking
+fold: Computer Cracking
 ---
 
 In the next lessons, we are going to start talking about server-side attacks, we

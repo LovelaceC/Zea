@@ -2,8 +2,8 @@
 title: Fake Authentication
 type: default
 layout: page
-child: Hacking
-fold: Network Hacking
+child: Cracking
+fold: Network Cracking
 ---
 
 In the previous lesson, we learned how easy it is to crack a WEP network, all we

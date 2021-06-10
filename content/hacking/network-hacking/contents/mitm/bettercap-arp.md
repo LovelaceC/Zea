@@ -2,8 +2,8 @@
 title: ARP Spoofing using Bettercap
 type: default
 layout: page
-child: Hacking
-fold: Network Hacking
+child: Cracking
+fold: Network Cracking
 ---
 
 Now, in this lesson, we will see how to run an ARP Spoofing attack using

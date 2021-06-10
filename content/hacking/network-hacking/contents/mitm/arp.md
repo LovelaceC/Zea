@@ -2,8 +2,8 @@
 title: What is ARP Poisoning?
 type: default
 layout: page
-child: Hacking
-fold: Network Hacking
+child: Cracking
+fold: Network Cracking
 ---
 
 In this section, we are going to talk about **Man In The Middle (MITM)** attacks
@@ -37,7 +37,7 @@ can see a typical network. We will see that when the client requests something,
 it will send the request to the router and then, the router will send the
 request and send it back to the client.
 
-![](/img/hacking/diagram1.jpg)
+![](/img/cracking/diagram1.jpg)
 
 All of this is done using packets. So, what we are going to do is we are going
 to send an ARP response to the client so that we can send responses without the
@@ -50,7 +50,7 @@ so we are going to tell the client that we are the router, basically.
 Due to this, the client will start sending the packets to us instead of
 sending the packets to the router. The following diagram illustrates this:
 
-![](/img/hacking/diagram2.jpg)
+![](/img/cracking/diagram2.jpg)
 
 After that, we are going to do the opposite to the WiFi router, we are going to
 tell the router that we are the clients. We will do this by telling the router
@@ -59,13 +59,13 @@ communication of packets will be done through the MAC address, and the WiFi
 router will start sending packets to us instead of sending it to the Client. The
 following diagram illustrates this:
 
-![](/img/hacking/diagram3.jpg)
+![](/img/cracking/diagram3.jpg)
 
 As seen in the following diagram, when the client requests for something, it
 will send the request to our device instead of sending it directly to the
 router.
 
-![](/img/hacking/diagram4.jpg)
+![](/img/cracking/diagram4.jpg)
 
 Now, the router will send the response to our device instead of the Client and
 then we will send that response to the Client. So this means that every packet

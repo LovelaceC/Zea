@@ -47,7 +47,7 @@ options for you to set.
 
 The first thing we are going to set is the course title, you can set it by
 setting a value in the input bar with the tip "Add title" you can write there
-normally. Please set a meaningful name, don't put anything like "Hacking" or
+normally. Please set a meaningful name, don't put anything like "Cracking" or
 "Computer Stuff", if you want to create a - for example - anonymity course,
 please use a name like "Learn to improve your anonymity" or something like that.
 
@@ -88,7 +88,7 @@ support to your course).
 
 And finally, in the Featured image, you can set your course's thumbnail. You can
 see images like
-[this](https://anonworld.eu/wp-content/uploads/2021/05/hackingscratch_2x.png)
+[this](https://anonworld.eu/wp-content/uploads/2021/05/crackingscratch_2x.png)
 and [this](https://anonworld.eu/wp-content/uploads/2021/05/C-language_4x.png)
 for reference.
 
@@ -166,15 +166,15 @@ What's the difference between them? Let me show you with an image:
 
 ![](/img/blog/sections.png)
 
-As you can see in that image (Taken from the course "Hacking from Scratch") The
+As you can see in that image (Taken from the course "Cracking from Scratch") The
 following are sections:
 
 - Introduction
-- Hacking Lab
+- Cracking Lab
 - Introduction to Linux
-- Network Hacking - Introduction
+- Network Cracking - Introduction
 
-And both "Introduction to Hacking" and "What is hacking, a hacker and why should
+And both "Introduction to Cracking" and "What is cracking, a hacker and why should
 I learn it?" are lessons.
 
 That's what we are going to learn to create in this section.
@@ -250,7 +250,7 @@ performance-critic programs and much more".
 Finally, set an image, as with the courses thumbnail, its dimensions MUST be
 very big check
 [this](https://anonworld.eu/wp-content/uploads/2021/05/kali-blue-header.jpg) or
-[this](https://anonworld.eu/wp-content/uploads/2021/05/website-hacking-with-ngrok_6x.jpg)
+[this](https://anonworld.eu/wp-content/uploads/2021/05/website-cracking-with-ngrok_6x.jpg)
 for reference.
 
 ## Gamification

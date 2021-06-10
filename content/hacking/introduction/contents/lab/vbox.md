@@ -2,7 +2,7 @@
 title: How to install BlackArch on VirtualBox?
 type: default
 layout: page
-child: Hacking
+child: Cracking
 fold: Introduction
 ---
 

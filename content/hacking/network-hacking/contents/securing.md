@@ -2,8 +2,8 @@
 title: Securing Your Network From Hackers
 type: default
 layout: page
-child: Hacking
-fold: Network Hacking
+child: Cracking
+fold: Network Cracking
 ---
 
 Now that we know how to test the security of all known wireless encryptions

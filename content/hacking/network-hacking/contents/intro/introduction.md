@@ -1,12 +1,12 @@
 ---
-title: Introduction to Network Hacking
+title: Introduction to Network Cracking
 type: default
 layout: page
-child: Hacking
-fold: Network Hacking
+child: Cracking
+fold: Network Cracking
 ---
 
-The first section we'll get into this course will be the "Network hacking"
+The first section we'll get into this course will be the "Network cracking"
 section. Why? Because everything is connected to a network. Regardless if your
 target is a computer, a server, a company or just a website, all these devices
 are connected to a network. With just the fact of being connected to the

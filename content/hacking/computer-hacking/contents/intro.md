@@ -1,9 +1,9 @@
 ---
-title: Introduction to Computer Hacking
+title: Introduction to Computer Cracking
 type: default
 layout: page
-child: Hacking
-fold: Computer Hacking
+child: Cracking
+fold: Computer Cracking
 ---
 
 In this section, we are going to learn how to gain access to a computer device.

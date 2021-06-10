@@ -2,8 +2,8 @@
 title: Basic Information Gathering
 type: default
 layout: page
-child: Hacking
-fold: Computer Hacking
+child: Cracking
+fold: Computer Cracking
 ---
 
 The first step into the server-side attacks is information gathering.

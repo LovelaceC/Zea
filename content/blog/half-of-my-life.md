@@ -16,7 +16,7 @@ It brought much more than website-creation knowledge to my life.
 
 It began creating simple websites using plain HTML, learn how to add links, how
 to add images, and now I am learning about a lot of stuff, how computers work,
-hacking, microembedded device programming, it literally changed my life. I ask
+cracking, microembedded device programming, it literally changed my life. I ask
 to myself from time to time how different my life would have been if I never
 watched that video, if my cousing didn't go to my house and a lot of other
 things that could have changed everything for me.

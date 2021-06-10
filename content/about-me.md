@@ -107,10 +107,10 @@ Hyperbola, Trisquel, etcetera).
 I am almost all the time working on a project, reading a book or watching
 videos. I have a lot of books downloaded on my computer, such as the emacs and
 gdb manual, MINIX, some others about programming (NASM, C and Perl) and also
-some hacking and politics books.
+some cracking and politics books.
 
 When I am not working on any project, reading a book or watching videos, I am
-hacking my computer, modifying things, testing window managers, opening,
+cracking my computer, modifying things, testing window managers, opening,
 reading, moving and copying files, create little programs in programming
 languages I am learning, practise things using my flashcards in Anki, and that
 sort of things.

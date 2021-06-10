@@ -2,8 +2,8 @@
 title: WEP Cracking Basics
 type: default
 layout: page
-child: Hacking
-fold: Network Hacking
+child: Cracking
+fold: Network Cracking
 ---
 
 From the previous lesson, we learned that in order to crack a network whose

@@ -2,7 +2,7 @@
 title: Course Breakdown
 type: default
 layout: page
-child: Hacking
+child: Cracking
 fold: Anonymity and Privacy
 ---
 

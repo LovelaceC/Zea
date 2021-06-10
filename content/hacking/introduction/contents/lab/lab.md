@@ -1,8 +1,8 @@
 ---
-title: What is a hacking lab?
+title: What is a cracking lab?
 type: default
 layout: page
-child: Hacking
+child: Cracking
 fold: Introduction
 ---
 

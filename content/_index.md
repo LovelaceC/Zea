@@ -7,7 +7,7 @@ layout: page
 This is Zea.
 
 This is my personal website, here I will post notes about things I learn,
-languages, programming, computer science, hacking, philosophy and some other
+languages, programming, computer science, cracking, philosophy and some other
 things related to me. I will also use this website to put into words what is in
 my head and hope I can help other people in several ways, by helping them to
 learn new things or to give them emotional support. I hope you like the content
@@ -27,9 +27,9 @@ like that, I will post things there regularly about things I learn, things I
 don't want to forget, or simply things that I think could be helpful for other
 people.
 
-## Hacking
+## Cracking
 
-In this section you can find guides/entries about kernel hacking and
+In this section you can find guides/entries about kernel cracking and
 cybersecurity.
 
 ## Languages

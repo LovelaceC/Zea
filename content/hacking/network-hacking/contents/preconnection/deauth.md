@@ -2,8 +2,8 @@
 title: De-authentication Attack
 type: default
 layout: page
-child: Hacking
-fold: Network Hacking
+child: Cracking
+fold: Network Cracking
 ---
 
 The deauthentication attack, allow us to disconnect any device from any network,

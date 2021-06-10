@@ -2,8 +2,8 @@
 title: Understanding HTTPS and How to Bypass it
 type: default
 layout: page
-child: Hacking
-fold: Network Hacking
+child: Cracking
+fold: Network Cracking
 ---
 
 Everything we have made so far, will only work against HTTP pages. The reason

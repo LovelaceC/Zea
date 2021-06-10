@@ -2,8 +2,8 @@
 title: ARP Spoofing using arpspoof
 type: default
 layout: page
-child: Hacking
-fold: Network Hacking
+child: Cracking
+fold: Network Cracking
 ---
 
 Now we are going to run the actual ARP poisoning attack, redirecting the flow of

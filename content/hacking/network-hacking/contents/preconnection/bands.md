@@ -2,8 +2,8 @@
 title: WiFi Bands
 type: default
 layout: page
-child: Hacking
-fold: Network Hacking
+child: Cracking
+fold: Network Cracking
 ---
 
 The band of a network, defines what frequency it can use to broadcast the

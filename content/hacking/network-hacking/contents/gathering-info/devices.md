@@ -2,12 +2,12 @@
 title: Discovering Devices Connected to Our Same Network
 type: default
 layout: page
-child: Hacking
-fold: Network Hacking
+child: Cracking
+fold: Network Cracking
 ---
 
 Information Gathering is one of the most important steps when it comes to
-hacking or penetration testing. If you think of it, you can't really gain
+cracking or penetration testing. If you think of it, you can't really gain
 access to a system if you don't have enough information about it. So, for
 example, let's say you are connected to a network and one of the devices
 connected to this network is your target, if you want to hack that

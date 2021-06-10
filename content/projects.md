@@ -26,7 +26,7 @@ more about all of them in the readme file of its git repository.
 ## AnonWorld
 
 AnonWorld is a completely-free (as in free beer - regretably it uses javascript
-but its experience is not damaged if you use LibreJS) hacking and programming
+but its experience is not damaged if you use LibreJS) cracking and programming
 school ran by some hacktivists from the anonymous collective.
 
 I will be creating some courses there, it is completely free and there are

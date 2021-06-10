@@ -2,8 +2,8 @@
 title: Bettercap Basics
 type: default
 layout: page
-child: Hacking
-fold: Network Hacking
+child: Cracking
+fold: Network Cracking
 ---
 
 Previously, we learned what ARP Spoofing is and how to use it to intercept

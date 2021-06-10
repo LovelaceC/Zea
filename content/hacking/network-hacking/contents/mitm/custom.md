@@ -2,8 +2,8 @@
 title: Creating a Custom Spoofing Script
 type: default
 layout: page
-child: Hacking
-fold: Network Hacking
+child: Cracking
+fold: Network Cracking
 ---
 
 In the previous lessons, we learned how to use BetterCAP to discover all the

@@ -2,8 +2,8 @@
 title: Gathering Sensitive Information About Connected Devices
 type: default
 layout: page
-child: Hacking
-fold: Network Hacking
+child: Cracking
+fold: Network Cracking
 ---
 
 Nmap is the second program that we are going to look. It is a huge tool and has

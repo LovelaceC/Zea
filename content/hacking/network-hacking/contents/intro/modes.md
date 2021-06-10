@@ -2,8 +2,8 @@
 title: Wireless Modes
 type: default
 layout: page
-child: Hacking
-fold: Network Hacking
+child: Cracking
+fold: Network Cracking
 ---
 
 Thanks to the previous lessons, we've learned in a very basic way how networks

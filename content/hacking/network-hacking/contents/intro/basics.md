@@ -2,11 +2,11 @@
 title: Network Basics
 type: default
 layout: page
-child: Hacking
-fold: Network Hacking
+child: Cracking
+fold: Network Cracking
 ---
 
-Before we can start talking about network hacking, we need to know how does a
+Before we can start talking about network cracking, we need to know how does a
 network work. We all know that a network usually contains a number of clients
 connected to each other, they usually do it to share data or a resource. A good
 example of "resource" is the internet, we are connected all the time to a

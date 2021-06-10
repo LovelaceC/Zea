@@ -2,8 +2,8 @@
 title: Exploiting a Code Execution Vulnerability to Hack into a Remote Server
 type: default
 layout: page
-child: Hacking
-fold: Computer Hacking
+child: Cracking
+fold: Computer Cracking
 ---
 
 So far we have seen how we can use a service that has not been configured

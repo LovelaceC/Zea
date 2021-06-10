@@ -2,7 +2,7 @@
 title: Social Engineering
 type: default
 layout: page
-child: Hacking
+child: Cracking
 ---
 
 In this section you will learn several social engineering methods and

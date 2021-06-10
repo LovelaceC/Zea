@@ -2,8 +2,8 @@
 title: ARP Request Attack
 type: default
 layout: page
-child: Hacking
-fold: Network Hacking
+child: Cracking
+fold: Network Cracking
 ---
 
 Once we are associated with the network, we can establish a communication with

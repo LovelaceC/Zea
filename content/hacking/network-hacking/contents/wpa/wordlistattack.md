@@ -2,8 +2,8 @@
 title: Cracking WPA and WPA2 Using a Wordlist Attack
 type: default
 layout: page
-child: Hacking
-fold: Network Hacking
+child: Cracking
+fold: Network Cracking
 ---
 
 From the previous lectures, we learned that in order to crack WPA or WPA2, we

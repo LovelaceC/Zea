@@ -2,8 +2,8 @@
 title: Bypassing HTTPS
 type: default
 layout: page
-child: Hacking
-fold: Network Hacking
+child: Cracking
+fold: Network Cracking
 ---
 
 Now that we understand the theory behind bypassing HTTPS and we have installed
