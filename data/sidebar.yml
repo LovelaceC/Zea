@@ -20,16 +20,16 @@
       url: /programming/assembly
     - title: GDB
       url: /programming/gdb
-- title: Hacking
+- title: Cracking
   url: /hacking
   sub:
     - title: Introduction
       url: /hacking/introduction
-    - title: Network Hacking
+    - title: Network Cracking
       url: /hacking/network-hacking
-    - title: Computer Hacking
+    - title: Computer Cracking
       url: /hacking/computer-hacking
-    - title: Website Hacking
+    - title: Website Cracking
       url: /hacking/website-hacking
     - title: Anonymity and Privacy
       url: /hacking/anonymity
