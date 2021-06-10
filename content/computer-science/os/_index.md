@@ -17,3 +17,4 @@ section.
 
 [Introduction](/computer-science/os/intro/intro)<br>
 [What is an Operating System?](/computer-science/os/intro/what-is)<br>
+[History of Operating Systems](/computer-science/os/intro/history)<br>
