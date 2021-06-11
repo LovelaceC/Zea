@@ -13,3 +13,4 @@ child: Programming
 [Getting Started with C](/programming/c/getting-started/getting-started)<br>
 [The First C Program](/programming/c/getting-started/c-program)<br>
 [Compilation and Execution](/programming/c/getting-started/compilation)<br>
+[Receiving Input](/programming/c/getting-started/receiving-input)<br>

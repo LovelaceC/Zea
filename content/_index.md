@@ -29,8 +29,7 @@ people.
 
 ## Cracking
 
-In this section you can find guides/entries about kernel cracking and
-cybersecurity.
+In this section you can find guides/entries about cybersecurity.
 
 ## Languages
 
