@@ -13,16 +13,16 @@ phones, etcetera)
 
 ### Introduction
 
-[Introduction to Computer Cracking](/cracking/computer-cracking/contents/intro)<br>
+[Introduction to Computer Cracking](/hacking/computer-hacking/contents/intro)<br>
 
 ### Server-Side Attacks
 
-[Installing Metasploitable](/cracking/computer-cracking/contents/serverside/metasploitable)<br>
-[Introduction to Server-Side Attacks](/cracking/computer-cracking/contents/serverside/introduction)<br>
-[Basic Information Gathering](/cracking/computer-cracking/contents/serverside/info-gathering)<br>
-[Cracking a Remote Server Using a Basic Metasploit Exploit](/cracking/computer-cracking/contents/serverside/basic-hack)<br>
-[Exploiting a Code Execution Vulnerability into a Remote Server](/cracking/computer-cracking/contents/serverside/code-execution)<br>
+[Installing Metasploitable](/hacking/computer-hacking/contents/serverside/metasploitable)<br>
+[Introduction to Server-Side Attacks](/hacking/computer-hacking/contents/serverside/introduction)<br>
+[Basic Information Gathering](/hacking/computer-hacking/contents/serverside/info-gathering)<br>
+[Cracking a Remote Server Using a Basic Metasploit Exploit](/hacking/computer-hacking/contents/serverside/basic-hack)<br>
+[Exploiting a Code Execution Vulnerability into a Remote Server](/hacking/computer-hacking/contents/serverside/code-execution)<br>
 
 ### Client-Side Attacks
 
-[Introduction to Client-Side Attacks](/cracking/computer-cracking/contents/clientside/introduction)<br>
+[Introduction to Client-Side Attacks](/hacking/computer-hacking/contents/clientside/introduction)<br>

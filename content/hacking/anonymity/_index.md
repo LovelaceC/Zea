@@ -13,5 +13,5 @@ secure and some other things like that.
 
 ### Introduction
 
-[Introduction to Anonymity](/cracking/anonymity/contents/introduction/intro)<br>
-[Course Breakdown](/cracking/anonymity/contents/introduction/breakdown)<br>
+[Introduction to Anonymity](/hacking/anonymity/contents/introduction/intro)<br>
+[Course Breakdown](/hacking/anonymity/contents/introduction/breakdown)<br>

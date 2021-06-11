@@ -43,7 +43,7 @@ The first **printf** outputs the message '_Enter the values of principle, number
 of years and rate_" on the screen. Here, we have not used any expression in
 **printf** which means that using expressions in **printf** is optional.
 
-Note that the amperstand (**&**) before the variable names in the **scanf**
+Note that the ampersand (**&**) before the variable names in the **scanf**
 function is a must. **&** is an 'Address of' operator. It gives the location
 number used by the variable in memory. When we say **&a**, we are telling
 **scanf()** at which memory location it should store the value supplied by the
