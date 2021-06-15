@@ -15,6 +15,11 @@ section.
 
 ### Introduction
 
-[Introduction](/computer-science/os/intro/intro)<br>
-[What is an Operating System?](/computer-science/os/intro/what-is)<br>
-[History of Operating Systems](/computer-science/os/intro/history)<br>
+- [Introduction](/computer-science/os/intro/intro)<br>
+- [What is an Operating System?](/computer-science/os/intro/what-is)<br>
+- [History of Operating Systems](/computer-science/os/intro/history)<br>
+  - [The first generation (1945-55): Vacuum Tubes](/computer-science/os/intro/history/firstgen)
+  - [The second generation (1955-65): Transistors and Batch Systems](/computer-science/os/intro/history/secondgen)
+  - [The third generation (1965-80): ICs and Multiprogramming](/computer-science/os/intro/history/thirdgen)
+  - [The fourth generation (1980-Present): Personal Computers](/computer-science/os/intro/history/fourthgen)
+  - [The fifth generation (1990-Present): Mobile Computers](/computer-science/os/intro/history/fifthgen)
