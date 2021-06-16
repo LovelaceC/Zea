@@ -1,3 +1,4 @@
+
 ---
 title: Deep learning from scratch in C
 type: default
@@ -20,3 +21,4 @@ learning, uses of deep learning and things like that.
 [The single input multiple output neural network](/guides/deep-learningc/simo)<br>
 [The multiple input single output neural network](/guides/deep-learningc/miso)<br>
 [The multiple input multiple output neural network](/guides/deep-learningc/mimo)<br>
+[The hidden layer](/guides/deep-learningc/hidden-layer)<br>
