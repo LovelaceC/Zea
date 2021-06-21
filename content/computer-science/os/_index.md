@@ -26,3 +26,4 @@ section.
 - [Computer Hardware Review](/computer-science/os/intro/hardware)<br>
   - [Processors](/computer-science/os/intro/hardware/processors)
   - [Memory](/computer-science/os/intro/hardware/memory)
+  - [Disks](/computer-science/os/intro/hardware/disks)
