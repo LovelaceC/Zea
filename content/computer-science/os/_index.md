@@ -25,3 +25,4 @@ section.
   - [The fifth generation (1990-Present): Mobile Computers](/computer-science/os/intro/history/fifthgen)
 - [Computer Hardware Review](/computer-science/os/intro/hardware)<br>
   - [Processors](/computer-science/os/intro/hardware/processors)
+  - [Memory](/computer-science/os/intro/hardware/memory)
