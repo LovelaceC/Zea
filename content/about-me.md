@@ -17,13 +17,15 @@ don't have to explain this to people every time.
 ## Music
 
 * Music genres I like are jazz, swing, easy listening, blues, industrial meta,
-spanish rap, folk, country, tango and grunge. Singes/groups I like a lot are
-Dino, Frank Sinatra, Elvis Presley, Perry Como, Ella Fitzgerald,
+spanish rap, folk, country, tango, grunge and emocore. Singes/groups I like a
+lot are Dino, Frank Sinatra, Elvis Presley, Perry Como, Ella Fitzgerald,
 Louis Armstrong, Bobby Darin, Nat King, Giulia y Los Tellarini, Bing Crosby,
 Bob Dylan, Hank Williams, Johnny Cash, The Irish Rovers, Manuel Medrano, Luis
 Miguel, Marilyn Manson, Rob Zombie, Slipknot, Peggy Lee, Canserbero, El Chojin,
 ZPU, Billie Holiday, Sara Vaughan, Nina Simone, Angus and Julia Stone, Liana
-Malva, JUNG, Nirvana, Bing Crosby and several other I cannot think of right now.
+Malva, JUNG, Nirvana, Bing Crosby, My Chemical Romance, Panic! At the Disco,
+Bullet for My Valentine, Zebrahead, Jimmt Eat World, AFI, Evanescence, All Time
+Low, and several other I cannot think of right now.
 * I know the lyrics of almost every song I usually listen to, because if I don't
 I can't focus, I need to sing while listening to the music (Ironically, that
 helps me a lot to get focuse).
