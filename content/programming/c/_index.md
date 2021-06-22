@@ -15,3 +15,4 @@ child: Programming
 [Compilation and Execution](/programming/c/getting-started/compilation)<br>
 [Receiving Input](/programming/c/getting-started/receiving-input)<br>
 [C Instructions](/programming/c/getting-started/instructions)<br>
+[Integer and Float Conversions](/programming/c/getting-started/conversion)<br>

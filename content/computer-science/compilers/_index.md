@@ -20,3 +20,6 @@ designed and some concepts about it.
 - [Lexical Analysis](/computer-science/compilers/intro/lexical-analysis)
 - [Syntax Analysis](/computer-science/compilers/intro/syntax-analysis)
 - [Semantic Analysis](/computer-science/compilers/intro/semantic-analysis)
+- [Intermediate Code Generation](/computer-science/compilers/intro/inermediate)
+- [Code Optimisation](/computer-science/compilers/intro/optimisation)
+- [Code Generation](/computer-science/compilers/intro/generation)
