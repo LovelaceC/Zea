@@ -31,3 +31,5 @@ designed and some concepts about it.
   - [Impact on Compilers](/computer-science/compilers/intro/evol/impact)
 - [The Science of Building a Compiler](/computer-science/compilers/intro/science)
 - [Applications of Compiler Technology](/computer-science/compilers/intro/application/)
+  - [Implementation of High-Level Programming Languages](/computer-science/compilers/intro/application/high-level)
+  - [Optimisations for Computer Architectures](/computer-science/compilers/intro/application/optimisations)
