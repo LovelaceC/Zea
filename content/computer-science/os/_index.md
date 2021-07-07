@@ -27,3 +27,4 @@ section.
   - [Processors](/computer-science/os/intro/hardware/processors)
   - [Memory](/computer-science/os/intro/hardware/memory)
   - [Disks](/computer-science/os/intro/hardware/disks)
+  - [I/O Devices](/computer-science/os/intro/hardware/io)

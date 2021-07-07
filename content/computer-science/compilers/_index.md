@@ -33,3 +33,4 @@ designed and some concepts about it.
 - [Applications of Compiler Technology](/computer-science/compilers/intro/application/)
   - [Implementation of High-Level Programming Languages](/computer-science/compilers/intro/application/high-level)
   - [Optimisations for Computer Architectures](/computer-science/compilers/intro/application/optimisations)
+  - [Design of New Computer Architectures](/computer-science/compilers/intro/application/arch)
