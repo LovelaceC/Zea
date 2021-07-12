@@ -40,6 +40,8 @@
           url: /hacking/social-engineering/humans
         - title: Computer Hacking
           url: /hacking/social-engineering/computers
+    - title: Commands
+      url: /hacking/commands
 - title: Languages
   url: /languages
   sub:
