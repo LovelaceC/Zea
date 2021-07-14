@@ -45,14 +45,18 @@ science, philosophy, psichology, cybersecurity books and politics.
 * I am an omnivore.
 * I don't like alcohol, it tastes horrible and it makes you stupid.
 
-## Religion
+## Beliefs
 
 * I am an atheist.
 * I don't follow any religion.
 * I love the LaVeyan philosophy, but when I am asked about my religion I will
 not even mention this, as I think people will think I am just seeking for
-attention.
-* "There's more wisdom on doubt, than infinite knowledge".
+attention or I am going to kill them and present them as a sacrifice for the
+dark lord or something.
+* I am an anarcho communist.
+* I hate capitalism, I am completely against it.
+* "Nothing makes you superior than any other human beign, regardless of your
+money, your job position, your skin colour or religion".
 
 ## Clothing
 
@@ -112,7 +116,7 @@ gdb manual, MINIX, some others about programming (NASM, C and Perl) and also
 some cracking and politics books.
 
 When I am not working on any project, reading a book or watching videos, I am
-cracking my computer, modifying things, testing window managers, opening,
+hacking my computer, modifying things, testing window managers, opening,
 reading, moving and copying files, create little programs in programming
 languages I am learning, practise things using my flashcards in Anki, and that
 sort of things.
