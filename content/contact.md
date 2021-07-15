@@ -4,14 +4,8 @@ type: default
 layout: page
 ---
 
-You can contact me through email:
+You can contact me through the following:
 
-- [hermadescgco@disroot.org](mailto:hermadescgco@disroot.org)
-
-You can contact me through Jabber:
-
-- jinxcgco@chat.sum7.eu
-
-You can contact me on Mastodon:
-
-- @bassara@mastodon.online
+- **Email**: [hermadescgco@disroot.org](mailto:hermadescgco@disroot.org)
+- **Pleroma**: [Lovelace](https://fedi.absturztau.be/lovelace)
+- **XMPP**: lovelace@chat.sum7.eu
