@@ -208,7 +208,7 @@
 - title: Packet Injection - Chopchop Attack
   category: NetworkHacking
   description: Tries to determine the IV by the sent packets to forge a fake one and inject it into the target network to generate traffic
-  type: command:
+  type: command
   content: >-
     The Chopchop attack works a little like the ARP replay attack, it will need to capture some packets
     to determine the IV so it can be used to forge a fake packet and that packet will be injected into
