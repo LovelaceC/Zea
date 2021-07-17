@@ -4,22 +4,25 @@
 <div id="main-copy">
   <h1>{{.Title}}</h1>
 
-  <ul>
-    {{ range .Site.Data.commands }}
-    <li>
-      <p><b>Title</b>: {{ .title }}</p>
-      <p><b>Category</b>: {{ .category }}</p>
-      <p><b>Description</b>: {{ .description }}</p>
-      <p><b>Content</b>:</p>
-      <p>{{ .content }}</p>
-      <p><b>Command(s)</b>:</p>
-      <pre class="chroma"><code>{{ range .commands }}{{ . }}<br>{{ end }}</code></pre>
-      <p><b>Example(s)</b>:</p>
-      <pre class="chroma"><code>{{ range .example}}{{ . }}<br>{{ end }}</code></pre>
-    </li>
-    <br>
-    {{ end }}
-  </ul>
+  {{ range .Site.Data.commands }}
+  <h2>{{.title}}</h2>
+  <p><b>Summary:</b> {{.description}}</p>
+  <p>{{.content | markdownify }}</p>
+
+  {{ if (eq .type "command") }}
+
+  <p><b>Commands:</b></p>
+  <div class="highlight">
+    <pre class="chroma"><code class="language-bash">{{ range .commands }}{{ . }}<br>{{ end }}</code></pre>
+  </div>
+
+  <p><b>Examples:</b></p>
+  <div class="highlight">
+    <pre class="chroma"><code class="language-bash">{{ range .example }}{{ . }}<br>{{ end }}</code></pre>
+  </div>
+  {{ end }}
+
+  {{ end }}
 </div>
 
 {{ partial "footer.html" . }}

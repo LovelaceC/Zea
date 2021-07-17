@@ -1,5 +1,5 @@
 /* Code */ code { color: #f8f8f2; background-color: #282a32; }
-/* Background */ .chroma { color: #f8f8f2; background-color: #282a36 }
+/* Background */ .chroma { color: #f8f8f2; background-color: #282a36; overflow: auto; }
 /* Other */ .chroma .x {  }
 /* Error */ .chroma .err {  }
 /* LineTableTD */ .chroma .lntd { vertical-align: top; padding: 0; margin: 0; border: 0; }
