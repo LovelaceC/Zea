@@ -10,6 +10,10 @@ programming language.
 
 ## Introduction
 
-[Introduction](/guides/emacs/intro/intro)<br>
-[Philosophy](/guides/emacs/intro/phil)<br>
-[Lisp](/guides/emacs/intro/lisp)<br>
+- [Introduction](/guides/emacs/intro/intro)<br>
+- [Philosophy](/guides/emacs/intro/phil)<br>
+- [Lisp](/guides/emacs/intro/lisp)<br>
+- [Emacs as an Operating System](/guides/emacs/intro/os)<br>
+- [Extensibility](/guides/emacs/intro/extensibility)<br>
+- [Important Conventions](/guides/emacs/intro/conventions)<br>
+  - [The buffer](/guides/emacs/intro/conventions/buffer)<br>
