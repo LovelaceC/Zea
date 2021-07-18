@@ -12,3 +12,4 @@ programming language.
 
 [Introduction](/guides/emacs/intro/intro)<br>
 [Philosophy](/guides/emacs/intro/phil)<br>
+[Lisp](/guides/emacs/intro/lisp)<br>
