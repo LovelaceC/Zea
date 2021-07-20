@@ -17,3 +17,5 @@ programming language.
 - [Extensibility](/guides/emacs/intro/extensibility)<br>
 - [Important Conventions](/guides/emacs/intro/conventions)<br>
   - [The buffer](/guides/emacs/intro/conventions/buffer)<br>
+  - [The window and the Frame](/guides/emacs/intro/conventions/frame)<br>
+  - [Modeline, Echo Area, and Minibuffer](/guides/emacs/intro/conventions/meam)<br>
