@@ -19,3 +19,7 @@ programming language.
   - [The buffer](/guides/emacs/intro/conventions/buffer)<br>
   - [The window and the Frame](/guides/emacs/intro/conventions/frame)<br>
   - [Modeline, Echo Area, and Minibuffer](/guides/emacs/intro/conventions/meam)<br>
+  - [The Point and Mark](/guides/emacs/intro/conventions/point)<br>
+  - [Killing, Yanking and CUA](/guides/emacs/intro/conventions/kyc)<br>
+  - [.emacs.d, init.el and .emacs](/guides/emacs/intro/conventions/dot)<br>
+  - [Major Modes and Minor Modes](/guides/emacs/intro/conventions/modes)<br>
