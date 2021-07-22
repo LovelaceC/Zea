@@ -23,3 +23,7 @@ programming language.
   - [Killing, Yanking and CUA](/guides/emacs/intro/conventions/kyc)<br>
   - [.emacs.d, init.el and .emacs](/guides/emacs/intro/conventions/dot)<br>
   - [Major Modes and Minor Modes](/guides/emacs/intro/conventions/modes)<br>
+
+## First Steps
+
+- [Installing Emacs](/guides/emacs/first/installing)
