@@ -34,3 +34,5 @@ designed and some concepts about it.
   - [Implementation of High-Level Programming Languages](/computer-science/compilers/intro/application/high-level)
   - [Optimisations for Computer Architectures](/computer-science/compilers/intro/application/optimisations)
   - [Design of New Computer Architectures](/computer-science/compilers/intro/application/arch)
+  - [Program Translations](/computer-science/compilers/intro/application/translations)<br>
+  - [Software Productivity Tools](/computer-science/compilers/intro/application/productivity)<br>
