@@ -23,7 +23,7 @@ section.
   - [The third generation (1965-80): ICs and Multiprogramming](/computer-science/os/intro/history/thirdgen)
   - [The fourth generation (1980-Present): Personal Computers](/computer-science/os/intro/history/fourthgen)
   - [The fifth generation (1990-Present): Mobile Computers](/computer-science/os/intro/history/fifthgen)
-- [Computer Hardware Review](/computer-science/os/intro/hardware)<br>
+- [Computer Hardware Review](/computer-science/os/intro/hardware)
   - [Processors](/computer-science/os/intro/hardware/processors)
   - [Memory](/computer-science/os/intro/hardware/memory)
   - [Disks](/computer-science/os/intro/hardware/disks)

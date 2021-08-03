@@ -27,3 +27,5 @@ programming language.
 ## First Steps
 
 - [Installing Emacs](/guides/emacs/first/installing)
+- [Starting Emacs](/guides/emacs/first/starting)
+- [Emacs Client-Server](/guides/emacs/first/server)
